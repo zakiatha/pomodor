@@ -1,0 +1,35 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1,
+h2 {
+    color: #343a40;
+}
+
+.pomodoro,
+.todo {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#timerDisplay {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.music-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.music-controls h3 {
+    margin: 0;
+}
+
+.music-controls button {
+    margin-left: 10px;
+}
